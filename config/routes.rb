@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   
       resources :items, only: [:index]
       resources :users, only: [:index, :create]
-      resources :carts, only: [:index]
+      resources :carts, only: [:index, :create, :destroy]
 
       post "/signup", to: "users#create"
       post "/login", to: "users#login"
