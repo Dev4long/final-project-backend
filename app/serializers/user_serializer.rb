@@ -1,8 +1,9 @@
 class UserSerializer < ActiveModel::Serializer
-  attributes :id, :name
+  attributes :id, :name, :email, :pic, :bio, :age
 
-  has_many :items, through: :carts
+  has_many :items, through: :purchases
   has_many :carts
+  has_many :purchases
 end
 
 

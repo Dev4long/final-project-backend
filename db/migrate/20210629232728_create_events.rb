@@ -7,6 +7,8 @@ class CreateEvents < ActiveRecord::Migration[6.1]
       t.string :image
       t.string :description
       t.integer :user_id
+      t.float :lat
+      t.float :lng
 
       t.timestamps
     end

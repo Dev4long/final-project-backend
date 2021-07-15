@@ -26,6 +26,8 @@ ActiveRecord::Schema.define(version: 2021_06_29_234037) do
     t.string "image"
     t.string "description"
     t.integer "user_id"
+    t.float "lat"
+    t.float "lng"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
