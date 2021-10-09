@@ -6,5 +6,3 @@ class UserSerializer < ActiveModel::Serializer
   has_many :purchases
 end
 
-
-# , :email, :age,  :pic, :bio

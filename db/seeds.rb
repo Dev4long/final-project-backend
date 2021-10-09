@@ -86,7 +86,7 @@ Item.create(name: "O1 Kraft Elite ", image:"https://products.marsblade.com/image
 
 Item.create(name: "Rollerblade RB110 3WD", image:"https://img.inlinewarehouse.com/watermark/rs.php?path=RB1104-1.jpg&nw=1080" , kind: "skates", rating:4 , price: 249.99)
 
-Item.create(name: 'MISSION INHALER WM01 RH SKATE', image: "https://media.purehockey.com/images/q_auto,f_auto,fl_lossy,c_lpad,b_auto,w_400,h_400/products/44316/41/141468/mission-inhaler-wm01-rh-skate-senior" , kind: "skates", rating:3 , price: 1099.99)
+Item.create(name: 'MISSION INHALER WM01 RH SKATE', image: "https://media.purehockey.com/images/q_auto,f_auto,fl_lossy,c_lpad,b_auto,w_400,h_400/products/44316/41/141468/mission-inhaler-wm01-rh-skate-senior   " , kind: "skates", rating:3 , price: 1099.99)
 
 User.create(name: "Denis", password: "123", email: "", pic: "", bio: "", age: "")
 
